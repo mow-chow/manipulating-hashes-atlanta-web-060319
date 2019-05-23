@@ -15,24 +15,6 @@ def first_challenge
 
   #your code here
 contacts["Freddy Mercury"][:favorite_icecream_flavors] = ["cookie dough", "mint chip"]
-contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
-contacts.each do |person, data|
-  puts "#{person}: #{data}"
-end
-data.each do |person, data|
-data.each do |attribute, value|
-   puts "#{attribute}: #{value}"
- end
-end
-data.each do |person, data|
-data.each do |attribute, value|
-if attribute = :favorite_icecream_flavors
-  value.each do |flavor|
-    puts "#{flavor}"
-  end
-end
-end
-end
 
   #remember to return your newly altered contacts hash!
   contacts
