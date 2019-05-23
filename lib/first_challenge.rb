@@ -24,6 +24,11 @@ data.each do |attribute, value|
    puts "#{attribute}: #{value}"
  end
 end
+data.each do |person, data|
+data.each do |attribute, value|
+if attribute = :favorite_icecream_flavors
+  value.each do |flavor|
+    puts "#{flavor}"
 
   #remember to return your newly altered contacts hash!
   contacts
