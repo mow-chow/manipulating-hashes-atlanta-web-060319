@@ -14,7 +14,7 @@ def first_challenge
   }
 
   #your code here
-contacts["Jon Snow"][:favorite_icecream_flavors] << "mint chip"
+contacts["Freddy Mercury"][:favorite_icecream_flavors] = ["cookie dough", "mint chip"]
 contacts["Jon Snow"][:address] = "The Lord Commander's Rooms, The Wall, Westeros"
 contacts.each do |person, data|
   puts "#{person}: #{data}"
